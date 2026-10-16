@@ -2,9 +2,9 @@
 
 A polished, classic Ludo game that runs entirely in your browser. No installation, no dependencies, no sign-up. Just open the link and play.
 
-### ▶ [**Play now**](https://mkeshav872-png.github.io/lodu-king/)
+### ▶ [**Play now**](https://mkeshav872-png.github.io/Lodu-King/)
 
-`https://mkeshav872-png.github.io/lodu-king/`
+`https://mkeshav872-png.github.io/Lodu-King/`
 
 ![Ludo King preview](og-image.png)
 
@@ -35,8 +35,8 @@ A polished, classic Ludo game that runs entirely in your browser. No installatio
 It is a single static page.
 
 ```bash
-git clone https://github.com/mkeshav872-png/lodu-king.git
-cd lodu-king
+git clone https://github.com/mkeshav872-png/Lodu-King.git
+cd Lodu-King
 # open index.html in any browser, or serve it:
 python3 -m http.server 8000   # then visit http://localhost:8000
 ```
