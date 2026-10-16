@@ -1,0 +1,16 @@
+{
+  "name": "Ludo King by Keshav Mishra",
+  "short_name": "Ludo King",
+  "description": "Classic Ludo in your browser. 2-4 players, vs Computer or Pass & Play.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#1d0f45",
+  "theme_color": "#1d0f45",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
