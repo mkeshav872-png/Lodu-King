@@ -1166,7 +1166,7 @@ Ludo king · HTML
         $('fs').onclick = () => { const d = document, e = d.documentElement; if (d.fullscreenElement) d.exitFullscreen(); else if (e.requestFullscreen) e.requestFullscreen() }; if (!document.fullscreenEnabled) $('fs').remove();
         $('sn').onclick = () => { mute = !mute; $('sn').textContent = mute ? '🔇' : '🔊'; sv() };
         $('die').onclick = () => { if (S && S.phase == 'roll' && !S.pl[S.cur].cpu) roll() };
-        const CHESS_URL = 'https://claude.ai/artifact/5UspqC1U5kfs4564AG63sL'; /* put your Chess Queen GitHub Pages link here */
+        const CHESS_URL = 'https://mkeshav872-png.github.io/Chess-Queen/';
         const AD = `<a class="ad" href="${CHESS_URL}" target="_blank" rel="noopener"><div class="ic">♛</div><div><b>CHESS QUEEN</b><small>Think • Plan • Checkmate!<br>Made by Keshav Mishra</small></div><u>PLAY</u><em>AD</em></a>`;
         ['#menu', '#pz', '#end'].forEach(q => { const d = document.createElement('div'); d.innerHTML = AD; document.querySelector(q + ' .card').appendChild(d.firstChild) });
         { const d = document.createElement('div'); d.id = 'adc'; d.innerHTML = AD; document.body.appendChild(d) }
